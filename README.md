@@ -1,3 +1,11 @@
+
+docker build -f Dockerfile -t example . 
+docker run -p 8085:8085 example
+
+docker ps 
+docker stop container id
+
+
 # Deploying a Spring Boot project as WAR on tomcat
 
 This is an example of how to package and deploy a Spring Boot project as WAR on Tomcat.
